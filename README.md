@@ -52,7 +52,7 @@ Datenbank-Anomalien:
  Normalformen:      1.Normalform: Atomisierung der Attributwerte (Attribut = immer nur ein Wert, keine Liste von Werten, 
                                                                   keine zusammengesetzte Werte)                            
                     2.Normalform: wenn 1.Normalform gegeben ist, und jedes Nicht-Schlüsselattribut voll funktional 
-                                  vom gesamten Primärschlüssel abhängig ist
+                                  vom gesamten Primärschlüssel abhängig ist.
                     3.Normalform: wenn die 2.Normallform gegeben ist, und zwischen den Nicht-Primärschlüsselattributen 
                                   keine Abhängigkeiten bestehen.
                                   
