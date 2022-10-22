@@ -34,27 +34,25 @@ Fremdschlüssel -  ist ein Attribut, das auf einen Datensatz in einer anderen Ta
 Normalisierung -  die Aufteilung von Attributen in mehrere Relationen gemäß den Normalisierungsregeln, 
                   so dass eine Form entsteht, die keine Redundanzen mehr enthält.
                   
-           Ziel der Normalisierung ist es eine ausreichende Ballance aus: 
+Ziel der Normalisierung ist es eine ausreichende Ballance aus: 
                     - geringer Redundanz (Werte eines Attributs sollen genau nur einmal in der Datenbank gespeichert sein),
                     - hoher Perfomance,
                     - hoher Flexibilität
                     zu gewährleisten. Eliminierung der Anomalien.
 
-Datenbank-Anomalien - Einfüge-Anomalie:     Daten können nicht in eine Datenbank übernommen werden, 
+Datenbank-Anomalien: 
+                    - Einfüge-Anomalie:     Daten können nicht in eine Datenbank übernommen werden, 
                                             da z.B. eine unvollständige Eingabe von Daten zu Inkonsistenz führt.
-                                            
                     - Änderungs-Anomalie:   Die Änderung eines Werts eines Attributs erfolgt nicht an allen Stellen 
                                             der Datenbank, an dem der Wert gespeichert ist. Dies führt zur Dateninkonsistenz.
-                                            
                     - Lösch-Anomalie:       Beim Löschen von Daten werden unbeabsichtigt andere mit diesen Daten in Zusammenhang 
                                             stehende Informationen ebenfalls gelöscht.
+                                     
                                             
  Normalformen:      1.Normalform: Atomisierung der Attributwerte (Attribut = immer nur ein Wert, keine Liste von Werten, 
-                                                                  keine zusammengesetzte Werte)
-                                                                  
+                                                                  keine zusammengesetzte Werte)                            
                     2.Normalform: wenn 1.Normalform gegeben ist, und jedes Nicht-Schlüsselattribut voll funktional 
-                                  vom gesamten Primärschlüssel abhängig ist.
-                                  
+                                  vom gesamten Primärschlüssel abhängig ist
                     3.Normalform: wenn die 2.Normallform gegeben ist, und zwischen den Nicht-Primärschlüsselattributen 
                                   keine Abhängigkeiten bestehen.
                                   
